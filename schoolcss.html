@@ -1,5 +1,100 @@
 <html>
 <head>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous">
+        
+       
+    </script>
+    
+       <script>
+           /*PT BUTTON*/
+      $(document).ready(function(){
+ $("#play").on('click',function(){
+   /*  console.log("test")PT BUTTON*/
+
+     $(".pt").css("background-color", "yellow");
+    $(".mat").css("background-color", "white");
+      $(".soc").css("background-color", "white");
+      $(".sci").css("background-color", "white");
+      $(".mat").css("background-color", "white");
+      $(".mat").css("background-color", "white");
+ })
+});
+           /*MATHS BUTTON*/
+   $(document).ready(function(){
+   $("#mat").on('click',function(){
+       
+         $(".mat").css("background-color", "Yellow");
+       $(".pt").css("background-color", "white");
+      $(".soc").css("background-color", "white");
+      $(".sci").css("background-color", "white");
+      $(".ms").css("background-color", "white");
+      $(".eng").css("background-color", "white");
+     })
+     
+           });
+           
+           /*Socialsceince Button*/
+           $(document).ready(function(){
+   $("#soc").on('click',function(){
+       
+         $(".soc").css("background-color", "Yellow");
+       $(".pt").css("background-color", "white");
+      $(".mat").css("background-color", "white");
+      $(".sci").css("background-color", "white");
+      $(".ms").css("background-color", "white");
+      $(".eng").css("background-color", "white");
+     })
+     
+           });
+           
+           /*Science BUTTON*/
+           $(document).ready(function(){
+   $("#sci").on('click',function(){
+       
+         $(".sci").css("background-color", "Yellow");
+     $(".pt").css("background-color", "white");
+      $(".soc").css("background-color", "white");
+      $(".mat").css("background-color", "white");
+      $(".ms").css("background-color", "white");
+      $(".eng").css("background-color", "white");
+     })
+     
+           });
+           /*ENG BUTON*/
+            $(document).ready(function(){
+   $("#eng").on('click',function(){
+       
+         $(".eng").css("background-color", "Yellow");
+       $(".mat").css("background-color", "white");
+      $(".soc").css("background-color", "white");
+      $(".sci").css("background-color", "white");
+      $(".ms").css("background-color", "white");
+      $(".pt").css("background-color", "white");
+     })
+     
+           });
+            /*Moral SCIENCE*/
+            $(document).ready(function(){
+   $("#ms").on('click',function(){
+       
+         $(".ms").css("background-color", "Yellow");
+       $(".mat").css("background-color", "white");
+      $(".soc").css("background-color", "white");
+      $(".sci").css("background-color", "white");
+      $(".pt").css("background-color", "white");
+      $(".eng").css("background-color", "white");
+     })
+     
+           });
+           
+           
+    </script>
+        
+   
+   
      <link href="scholl.css" rel="stylesheet">
              
     <h1 style=" background-color: beige;"><center>
@@ -8,7 +103,7 @@
 </head>
 
 
-<table  class="school" border="" align="center">
+<table id="tabsch" class="school"   border="" align="center">
 
     <tr>
         <td width="8%">
@@ -37,28 +132,28 @@
         </td>
     </tr>
     <tr>
-        <td >
+        <td width="8%" style="background-color: coral;">
             MON
         </td>
-        <td class="interrow" >
+        <td class="interrow mat" >
             Maths
         </td>
-         <td class="interrow" >
+         <td class="interrow sci" >
             Science
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
-         <td class="interrow" >
+         <td  class="interrow soc" >
             Social
         </td>
         <td  class="lun" rowspan="5" >
             L <br> U <br> N <br> C <br> H
         </td>
-         <td class="interrow" >
+         <td  class="interrow pt" >
             PT
         </td>
-         <td class="interrow" >
+         <td class="interrow ms" >
             Moral Science
         </td>
     </tr>
@@ -66,44 +161,45 @@
         <td width="8%" style="background-color: coral;">
             TUE
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
-         <td class="interrow" >
+         <td class="interrow sci" >
             Science
         </td>
-         <td class="interrow" >
+         <td class="interrow mat" >
             Maths
         </td>
-         <td class="interrow" >
+         <td class="interrow pt" >
             PT
         </td>
-         <td class="interrow" >
-            Social science
+         <td class="interrow soc" >
+            Social
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
+    </tr>
     <tr>
         <td style="background-color: coral;">
             WED
         </td>
-         <td class="interrow" >
+         <td class="interrow mat" >
             Maths
         </td>
-         <td class="interrow" >
+         <td class="interrow soc" >
             Social studies
         </td>
-         <td class="interrow" >
+         <td class="interrow sci" >
             Sciecnce
         </td>
-         <td class="interrow" >
+         <td class="interrow mat" >
             Maths
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
-         <td class="interrow" >
+         <td class="interrow pt" >
             PT
         </td>
     </tr>
@@ -111,22 +207,22 @@
             <td style="background-color: coral;">
             THU
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
-         <td class="interrow" >
+         <td class="interrow soc" >
             Social science
         </td>
-         <td class="interrow" >
+         <td class="interrow mat" >
             Maths
         </td>
-         <td class="interrow" >
+         <td class="interrow pt" >
             PT
         </td>
-        <td class="interrow" >
+        <td class="interrow mat" >
             Maths
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
     </tr>
@@ -135,25 +231,58 @@
             <td style="background-color: coral;">
             FRI
         </td>
-         <td class="interrow" >
+         <td class="interrow mat" >
             Maths
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
-         <td class="interrow" >
+         <td class="interrow sci" >
             Science
         </td>
-         <td class="interrow" >
+         <td class="interrow eng" >
             Eng
         </td>
-         <td class="interrow" >
+         <td  class="interrow pt" >
             PT
         </td>
-         <td class="interrow" >
+         <td class="interrow soc" >
             Social
         </td>
     </tr>
+    <tr>
+        <td>
+            <button id="play" style="height: 100%;width: 100%;">WANT TO PLAY</button>
+        </td>
+        <td >
+         <button id="mat" style="height: 100%;width: 100%;"> WANT TO LAERN MATHS
+             
+            </button>
+        </td>
+        <td>
+            <button id="soc" style="height: 100%;width: 100%;"> WANT TO LEARN SOCIAL SCIENCE
+             
+            </button>
+        </td>
+        <td>
+            <button id="sci" style="height: 100%;width: 100%;"> WANT TO LEARN SCIENCE
+             
+            </button>
+        </td>
+        <td>
+            <button id="eng" style="height: 100%;width: 100%;"> WANT TO LEARN COMMUNICATION
+             
+            </button>
+        </td>
+        <td colspan="3">
+            <button id="ms" style="height: 100%;width: 100%;"> WANT TO MORAL SCIENCE
+             
+            </button>
+        </td>
+        
     </tr>
+ 
 </table>
+    
+     
 </html>
