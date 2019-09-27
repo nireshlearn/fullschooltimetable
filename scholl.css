@@ -1,0 +1,26 @@
+.school{
+height: 100%;
+width: 100%;
+}
+.hdrow{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.nrrow
+{
+    width:inherit;
+    height:inherit;
+}
+
+.lun{
+    background-color: coral;
+    text-align: center;
+    width:8%;
+    
+}
+.interrow{
+    table-layout: auto;
+    width: 8%;
+    text-align: center;
+    
+}
